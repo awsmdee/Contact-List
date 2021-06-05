@@ -1,0 +1,21 @@
+contacts = [
+    ('James', 42),
+    ('Amy', 24),
+    ('John', 31),
+    ('Amanda', 63),
+    ('Bob', 18)
+]
+n = input()
+
+if n in contacts[0]:
+    print(str(contacts[0][0]) + " is " + str(contacts[0][1]))
+elif n in contacts[1]:
+    print(str(contacts[1][0]) + " is " + str(contacts[1][1]))
+elif n in contacts[2]:
+    print(str(contacts[2][0]) + " is " + str(contacts[2][1]))
+elif n in contacts[3]:
+    print(str(contacts[3][0]) + " is " + str(contacts[3][1]))
+elif n in contacts[4]:
+    print(str(contacts[4][0]) + " is " + str(contacts[4][1]))
+else:
+    print("Not found")
